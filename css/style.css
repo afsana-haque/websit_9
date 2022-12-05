@@ -1,0 +1,188 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    /* font-family: 'Handlee', cursive; */
+    font-family: 'Montserrat', sans-serif;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-tittle h3{
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+/* .hr-styel{
+    border: 4px dotted white;
+    border-bottom: none;
+    width: 70px;
+} */
+
+/* header start */
+header{
+    background: url(../images/banner_img.jpg);
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.navbar{
+    padding: 1% 10%;
+    background: rgba(0,0,0,0.3);
+}
+.navbar-icon{
+    color: white;
+}
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+}
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: all linear 0.4s;
+}
+.nav-link:hover{
+    background: #2980b9;
+    color: white;
+    transform: scale(1.1);
+}
+.banner-container{
+    height: 100vh;
+}
+.banner-container h1{
+     font-size: 3.5rem;
+     background: rgba(7, 101, 189, 0.8);
+     padding: 10px 20px;
+      font-family: 'Handlee', cursive;
+      border-radius: 5px;
+}
+/* header end */
+
+
+/* features start */
+#features{
+    padding: 5% 10%;
+    background: #e8ded2;
+}
+.features-col{
+    border: 1px solid #E70E2D;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0px;
+    transition: all linear 0.4s;
+}
+.features-col:hover{
+    transform:scale(1.1);
+    box-shadow: 2px 6px 5px #000;
+}
+.icon-style{
+    background: #E70E2D;
+    color: white;
+    padding: 15px;
+    margin: 5px 0px;
+}
+/* features end */
+
+
+/* about-me part start */
+#about-me{
+    padding: 4% 10%;
+    background: #e8ded2;
+}
+
+#about-me p{
+    font-size: 0.9rem;
+    margin-bottom: 0px;
+    font-weight: light;
+}
+#about-me a{
+    font-size: 0.9rem;
+    font-weight: light;
+    color: #000;
+    text-decoration: underline;
+}
+
+.achieve-desc span{
+    font-weight: 700 !important;
+   
+}
+
+.star i{
+    width: 20px;
+    color: #E70E2D;
+}
+/* about-me part end */
+
+/* Tutorial start */
+#tutorial{
+    padding: 4% 10%;
+    background: #c9ecf3;
+}
+.card{
+    transition: all linear 0.4s;
+    border: 1px solid rgb(97, 100, 243);
+}
+.card img{
+    height: 250px;
+}
+.card:hover{
+    transform:scale(1.1);
+    box-shadow: 2px 6px 5px #000;
+}
+/* Tutorial end */
+
+
+/* Feedback start */
+#feedback{
+    padding: 4% 10%;
+    background: #57b7ca;
+}
+.carousel-item{
+    text-align: center;
+    padding: 7% 15%;
+    font-style: italic;
+    font-size: 1.2rem;
+   
+}
+.feedback-img{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+/* Feedback end */
+
+/* Contact start */
+#contact{
+    padding: 2% 10%;
+    background: #5eaaa8;
+}
+/* Contact end */
+
+/* footer start */
+footer{
+    padding: 2% 10%;
+    background: #245e85;
+}
+footer a{
+    color: #fff;
+    margin: 0px 10px;
+    font-size: 18px;
+}
+footer a:hover{
+    color: #E70E2D;
+}
+/* footer end*/
+
+@media (max-width:768px){
+    .nav-link{
+        background: rgb(0,0,0,0.7);
+    }
+    .banner-container h1{
+        font-size: 2.5rem;
+
+   }
+}
